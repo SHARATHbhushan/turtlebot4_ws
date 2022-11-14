@@ -1,0 +1,190 @@
+[0.032s] Invoking command in '/home/student/turlebot_ws/build/irobot_create_nodes': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/turlebot_ws/src/create3_sim/irobot_create_common/irobot_create_nodes -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/turlebot_ws/install/irobot_create_nodes
+[0.107s] -- The C compiler identification is GNU 9.4.0
+[0.177s] -- The CXX compiler identification is GNU 9.4.0
+[0.182s] -- Check for working C compiler: /usr/bin/cc
+[0.269s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.270s] -- Detecting C compiler ABI info
+[0.354s] -- Detecting C compiler ABI info - done
+[0.371s] -- Detecting C compile features
+[0.372s] -- Detecting C compile features - done
+[0.375s] -- Check for working CXX compiler: /usr/bin/c++
+[0.469s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.470s] -- Detecting CXX compiler ABI info
+[0.568s] -- Detecting CXX compiler ABI info - done
+[0.590s] -- Detecting CXX compile features
+[0.590s] -- Detecting CXX compile features - done
+[0.593s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.621s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.621s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.687s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.718s] -- Found angles: 1.14.0 (/opt/ros/galactic/share/angles/cmake)
+[0.720s] -- Found control_msgs: 3.0.0 (/opt/ros/galactic/share/control_msgs/cmake)
+[0.755s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.763s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.881s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.921s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.053s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.602s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.693s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[1.787s] -- Found irobot_create_msgs: 1.2.0 (/home/student/turlebot_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake)
+[1.975s] -- Found irobot_create_toolbox: 1.0.1 (/home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake)
+[2.053s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.057s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.080s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.081s] -- Looking for pthread.h
+[2.168s] -- Looking for pthread.h - found
+[2.168s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.257s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.258s] -- Looking for pthread_create in pthreads
+[2.330s] -- Looking for pthread_create in pthreads - not found
+[2.330s] -- Looking for pthread_create in pthread
+[2.414s] -- Looking for pthread_create in pthread - found
+[2.416s] -- Found Threads: TRUE  
+[2.600s] -- Found rclcpp_action: 9.2.1 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[2.645s] -- Found rclcpp_components: 9.2.1 (/opt/ros/galactic/share/rclcpp_components/cmake)
+[2.737s] -- Found tf2: 0.17.4 (/opt/ros/galactic/share/tf2/cmake)
+[2.750s] -- Found tf2_geometry_msgs: 0.17.4 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+[2.761s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[2.766s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.149s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.71.0/BoostConfig.cmake (found version "1.71.0")  
+[3.279s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.440s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.443s] -- Configured cppcheck include dirs: /home/student/turlebot_ws/src/create3_sim/irobot_create_common/irobot_create_nodes/include
+[3.444s] -- Configured cppcheck exclude dirs and/or files: 
+[3.447s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.447s] -- Configured cpplint exclude dirs and/or files: 
+[3.449s] -- Added test 'lint_cmake' to check CMake code style
+[3.454s] -- Added test 'uncrustify' to check C / C++ code style
+[3.454s] -- Configured uncrustify additional arguments: 
+[3.455s] -- Added test 'xmllint' to check XML markup files
+[3.467s] -- Configuring done
+[3.926s] -- Generating done
+[3.936s] -- Build files have been written to: /home/student/turlebot_ws/build/irobot_create_nodes
+[3.972s] Invoked command in '/home/student/turlebot_ws/build/irobot_create_nodes' returned '0': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/turlebot_ws/src/create3_sim/irobot_create_common/irobot_create_nodes -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/turlebot_ws/install/irobot_create_nodes
+[3.975s] Invoking command in '/home/student/turlebot_ws/build/irobot_create_nodes': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/turlebot_ws/build/irobot_create_nodes -- -j12 -l12
+[4.188s] [35m[1mScanning dependencies of target kidnap_estimator_publisher_lib[0m
+[4.188s] [35m[1mScanning dependencies of target kidnap_estimator_publisher[0m
+[4.208s] [35m[1mScanning dependencies of target mock_publisher_lib[0m
+[4.232s] [35m[1mScanning dependencies of target ui_mgr[0m
+[4.252s] [35m[1mScanning dependencies of target wheel_status_publisher_lib[0m
+[4.253s] [35m[1mScanning dependencies of target mock_publisher[0m
+[4.253s] [35m[1mScanning dependencies of target ir_intensity_publisher_lib[0m
+[4.253s] [35m[1mScanning dependencies of target motion_control[0m
+[4.253s] [35m[1mScanning dependencies of target motion_control_lib[0m
+[4.256s] [35m[1mScanning dependencies of target robot_state[0m
+[4.280s] [35m[1mScanning dependencies of target hazard_publisher_lib[0m
+[4.281s] [35m[1mScanning dependencies of target hazards_vector_publisher[0m
+[4.425s] [  2%] [32mBuilding CXX object CMakeFiles/kidnap_estimator_publisher_lib.dir/src/kidnap_estimator_publisher.cpp.o[0m
+[4.476s] [  5%] [32mBuilding CXX object CMakeFiles/mock_publisher_lib.dir/src/mock_publisher.cpp.o[0m
+[4.477s] [  8%] [32mBuilding CXX object CMakeFiles/motion_control.dir/rclcpp_components/node_main_motion_control.cpp.o[0m
+[4.495s] [ 10%] [32mBuilding CXX object CMakeFiles/wheel_status_publisher_lib.dir/src/wheels_publisher.cpp.o[0m
+[4.508s] [ 13%] [32mBuilding CXX object CMakeFiles/robot_state.dir/rclcpp_components/node_main_robot_state.cpp.o[0m
+[4.514s] [ 16%] [32mBuilding CXX object CMakeFiles/kidnap_estimator_publisher.dir/rclcpp_components/node_main_kidnap_estimator_publisher.cpp.o[0m
+[4.520s] [ 18%] [32mBuilding CXX object CMakeFiles/hazards_vector_publisher.dir/rclcpp_components/node_main_hazards_vector_publisher.cpp.o[0m
+[4.564s] [ 21%] [32mBuilding CXX object CMakeFiles/ui_mgr.dir/rclcpp_components/node_main_ui_mgr.cpp.o[0m
+[4.583s] [ 24%] [32mBuilding CXX object CMakeFiles/mock_publisher.dir/rclcpp_components/node_main_mock_publisher.cpp.o[0m
+[4.608s] [ 27%] [32mBuilding CXX object CMakeFiles/hazard_publisher_lib.dir/src/hazards_vector_publisher.cpp.o[0m
+[4.640s] [ 29%] [32mBuilding CXX object CMakeFiles/ir_intensity_publisher_lib.dir/src/ir_intensity_vector_publisher.cpp.o[0m
+[4.790s] [ 32%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control_node.cpp.o[0m
+[17.542s] [ 35%] [32m[1mLinking CXX executable hazards_vector_publisher[0m
+[17.563s] [ 37%] [32m[1mLinking CXX executable kidnap_estimator_publisher[0m
+[17.587s] [ 40%] [32m[1mLinking CXX executable mock_publisher[0m
+[17.861s] [ 43%] [32m[1mLinking CXX executable robot_state[0m
+[18.222s] [ 45%] [32m[1mLinking CXX executable ui_mgr[0m
+[18.413s] [ 45%] Built target kidnap_estimator_publisher
+[18.497s] [ 45%] Built target hazards_vector_publisher
+[18.517s] [ 48%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/docking_behavior.cpp.o[0m
+[18.550s] [ 51%] [32m[1mLinking CXX executable motion_control[0m
+[18.563s] [ 51%] Built target mock_publisher
+[18.595s] [ 54%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/drive_goal_behaviors.cpp.o[0m
+[18.680s] [35m[1mScanning dependencies of target ir_intensity_vector_publisher[0m
+[18.730s] [ 54%] Built target robot_state
+[18.813s] [ 56%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/reflex_behavior.cpp.o[0m
+[19.000s] [ 59%] [32mBuilding CXX object CMakeFiles/ir_intensity_vector_publisher.dir/rclcpp_components/node_main_ir_intensity_vector_publisher.cpp.o[0m
+[19.034s] [ 59%] Built target ui_mgr
+[19.135s] [35m[1mScanning dependencies of target wheel_status_publisher[0m
+[19.435s] [ 62%] [32mBuilding CXX object CMakeFiles/wheel_status_publisher.dir/rclcpp_components/node_main_wheel_status_publisher.cpp.o[0m
+[19.510s] [ 62%] Built target motion_control
+[19.590s] [35m[1mScanning dependencies of target robot_state_lib[0m
+[19.881s] [ 64%] [32mBuilding CXX object CMakeFiles/robot_state_lib.dir/src/robot_state.cpp.o[0m
+[24.262s] [ 67%] [32m[1mLinking CXX shared library libmock_publisher_lib.so[0m
+[25.990s] [ 67%] Built target mock_publisher_lib
+[26.013s] [35m[1mScanning dependencies of target ui_mgr_lib[0m
+[26.351s] [ 70%] [32mBuilding CXX object CMakeFiles/ui_mgr_lib.dir/src/ui_mgr.cpp.o[0m
+[31.567s] [ 72%] [32m[1mLinking CXX executable ir_intensity_vector_publisher[0m
+[31.665s] [ 75%] [32m[1mLinking CXX executable wheel_status_publisher[0m
+[32.339s] [ 75%] Built target ir_intensity_vector_publisher
+[32.362s] [ 75%] Built target wheel_status_publisher
+[37.670s] [ 78%] [32m[1mLinking CXX shared library libir_intensity_publisher_lib.so[0m
+[38.634s] [ 81%] [32m[1mLinking CXX shared library libhazard_publisher_lib.so[0m
+[39.002s] [ 83%] [32m[1mLinking CXX shared library libkidnap_estimator_publisher_lib.so[0m
+[40.109s] [ 83%] Built target ir_intensity_publisher_lib
+[40.585s] [ 83%] Built target hazard_publisher_lib
+[40.629s] [ 83%] Built target kidnap_estimator_publisher_lib
+[40.650s] [ 86%] [32m[1mLinking CXX shared library libwheel_status_publisher_lib.so[0m
+[42.494s] [ 86%] Built target wheel_status_publisher_lib
+[50.797s] [ 89%] [32m[1mLinking CXX shared library librobot_state_lib.so[0m
+[52.241s] [ 89%] Built target robot_state_lib
+[53.520s] [ 91%] [32m[1mLinking CXX shared library libui_mgr_lib.so[0m
+[54.740s] [ 91%] Built target ui_mgr_lib
+[58.781s] [ 94%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/wall_follow_states.cpp.o[0m
+[62.077s] [ 97%] [32mBuilding CXX object CMakeFiles/motion_control_lib.dir/src/motion_control/wall_follow_behavior.cpp.o[0m
+[69.363s] [100%] [32m[1mLinking CXX shared library libmotion_control_lib.so[0m
+[72.273s] [100%] Built target motion_control_lib
+[72.334s] Invoked command in '/home/student/turlebot_ws/build/irobot_create_nodes' returned '0': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/turlebot_ws/build/irobot_create_nodes -- -j12 -l12
+[72.417s] Invoking command in '/home/student/turlebot_ws/build/irobot_create_nodes': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/turlebot_ws/build/irobot_create_nodes
+[72.428s] -- Install configuration: ""
+[72.428s] -- Execute custom install script
+[72.429s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/irobot_create_nodes/hazards_vector_publisher
+[72.440s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/irobot_create_nodes/ir_intensity_vector_publisher
+[72.451s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/irobot_create_nodes/motion_control
+[72.461s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/irobot_create_nodes/wheel_status_publisher
+[72.473s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/irobot_create_nodes/robot_state
+[72.483s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/irobot_create_nodes/ui_mgr
+[72.494s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/irobot_create_nodes/mock_publisher
+[72.505s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/irobot_create_nodes/kidnap_estimator_publisher
+[72.516s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/libhazard_publisher_lib.so
+[72.526s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/libir_intensity_publisher_lib.so
+[72.537s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/libmotion_control_lib.so
+[72.547s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/libwheel_status_publisher_lib.so
+[72.558s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/librobot_state_lib.so
+[72.568s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/libui_mgr_lib.so
+[72.579s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/libmock_publisher_lib.so
+[72.589s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/lib/libkidnap_estimator_publisher_lib.so
+[72.601s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/hazards_vector_publisher.hpp
+[72.611s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/ir_intensity_vector_publisher.hpp
+[72.621s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/kidnap_estimator_publisher.hpp
+[72.632s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/mock_publisher.hpp
+[72.642s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/behaviors_scheduler.hpp
+[72.653s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/docking_behavior.hpp
+[72.663s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/drive_goal_behaviors.hpp
+[72.673s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/reflex_behavior.hpp
+[72.684s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/simple_goal_controller.hpp
+[72.694s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/wall_follow_behavior.hpp
+[72.704s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control/wall_follow_states.hpp
+[72.715s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/motion_control_node.hpp
+[72.725s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/robot_state.hpp
+[72.735s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/ui_mgr.hpp
+[72.746s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/include/irobot_create_nodes/wheels_publisher.hpp
+[72.756s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/library_path.sh
+[72.767s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/library_path.dsv
+[72.778s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/ament_index/resource_index/package_run_dependencies/irobot_create_nodes
+[72.788s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/ament_index/resource_index/parent_prefix_path/irobot_create_nodes
+[72.799s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/ament_prefix_path.sh
+[72.809s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/ament_prefix_path.dsv
+[72.820s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/path.sh
+[72.830s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/environment/path.dsv
+[72.841s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.bash
+[72.851s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.sh
+[72.862s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.zsh
+[72.873s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/local_setup.dsv
+[72.883s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/package.dsv
+[72.893s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/ament_index/resource_index/packages/irobot_create_nodes
+[72.904s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/ament_index/resource_index/rclcpp_components/irobot_create_nodes
+[72.914s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_include_directories-extras.cmake
+[72.926s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_libraries-extras.cmake
+[72.936s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/ament_cmake_export_dependencies-extras.cmake
+[72.946s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/irobot_create_nodesConfig.cmake
+[72.957s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/cmake/irobot_create_nodesConfig-version.cmake
+[72.967s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_nodes/share/irobot_create_nodes/package.xml
+[72.979s] Invoked command in '/home/student/turlebot_ws/build/irobot_create_nodes' returned '0': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/turlebot_ws/build/irobot_create_nodes

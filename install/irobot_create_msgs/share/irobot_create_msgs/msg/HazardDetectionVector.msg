@@ -1,0 +1,1 @@
+/home/student/turlebot_ws/src/irobot_create_msgs/msg/HazardDetectionVector.msg

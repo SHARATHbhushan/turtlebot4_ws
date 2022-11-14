@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 9.4.0
+-- The CXX compiler identification is GNU 9.4.0
+-- Check for working C compiler: /usr/bin/cc
+-- Check for working C compiler: /usr/bin/cc -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /usr/bin/c++
+-- Check for working CXX compiler: /usr/bin/c++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+-- Using PYTHON_EXECUTABLE: /usr/bin/python3
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/student/turlebot_ws/build/irobot_create_common_bringup
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config/hazard_vector_params.yaml
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config/ir_intensity_vector_params.yaml
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config/kidnap_estimator_params.yaml
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config/mock_params.yaml
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config/robot_state_params.yaml
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config/ui_mgr_params.yaml
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/config/wheel_status_params.yaml
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/launch/create3_nodes.launch.py
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/launch/dock_description.launch.py
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/launch/robot_description.launch.py
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/launch/rviz2.launch.py
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/rviz/irobot_create_view.rviz
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/rviz/irobot_logo.jpg
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/ament_index/resource_index/package_run_dependencies/irobot_create_common_bringup
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/ament_index/resource_index/parent_prefix_path/irobot_create_common_bringup
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/environment/ament_prefix_path.sh
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/environment/ament_prefix_path.dsv
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/environment/path.sh
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/environment/path.dsv
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/local_setup.bash
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/local_setup.sh
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/local_setup.zsh
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/local_setup.dsv
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/package.dsv
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/ament_index/resource_index/packages/irobot_create_common_bringup
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/cmake/irobot_create_common_bringupConfig.cmake
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/cmake/irobot_create_common_bringupConfig-version.cmake
+-- Symlinking: /home/student/turlebot_ws/install/irobot_create_common_bringup/share/irobot_create_common_bringup/package.xml

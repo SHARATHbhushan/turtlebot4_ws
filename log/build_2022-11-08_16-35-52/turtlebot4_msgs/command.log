@@ -1,0 +1,6 @@
+Invoking command in '/home/student/turlebot_ws/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/student/turlebot_ws/src/turtlebot4/turtlebot4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/turlebot_ws/install/turtlebot4_msgs
+Invoked command in '/home/student/turlebot_ws/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/student/turlebot_ws/src/turtlebot4/turtlebot4_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/turlebot_ws/install/turtlebot4_msgs
+Invoking command in '/home/student/turlebot_ws/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/student/turlebot_ws/build/turtlebot4_msgs -- -j12 -l12
+Invoked command in '/home/student/turlebot_ws/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/student/turlebot_ws/build/turtlebot4_msgs -- -j12 -l12
+Invoking command in '/home/student/turlebot_ws/build/turtlebot4_msgs': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/student/turlebot_ws/build/turtlebot4_msgs
+Invoked command in '/home/student/turlebot_ws/build/turtlebot4_msgs' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/student/turlebot_ws/build/turtlebot4_msgs

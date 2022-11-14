@@ -1,0 +1,1 @@
+/home/student/turlebot_ws/build/irobot_create_msgs/ament_cmake_environment_hooks/local_setup.sh

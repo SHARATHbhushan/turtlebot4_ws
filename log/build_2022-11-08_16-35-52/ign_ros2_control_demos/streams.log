@@ -1,0 +1,110 @@
+[0.091s] Invoking command in '/home/student/turlebot_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/ign_ros2_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64: /usr/bin/cmake /home/student/turlebot_ws/src/ignition-ros2-control/ign_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/turlebot_ws/install/ign_ros2_control_demos
+[0.312s] -- The C compiler identification is GNU 9.4.0
+[0.610s] -- The CXX compiler identification is GNU 9.4.0
+[0.634s] -- Check for working C compiler: /usr/bin/cc
+[1.064s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.065s] -- Detecting C compiler ABI info
+[1.347s] -- Detecting C compiler ABI info - done
+[1.372s] -- Detecting C compile features
+[1.373s] -- Detecting C compile features - done
+[1.378s] -- Check for working CXX compiler: /usr/bin/c++
+[1.532s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.534s] -- Detecting CXX compiler ABI info
+[1.693s] -- Detecting CXX compiler ABI info - done
+[1.719s] -- Detecting CXX compile features
+[1.720s] -- Detecting CXX compile features - done
+[1.724s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[1.758s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[1.758s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.823s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.845s] -- Found control_msgs: 3.0.0 (/opt/ros/galactic/share/control_msgs/cmake)
+[1.877s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.883s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[1.987s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[2.019s] -- Found FastRTPS: /opt/ros/galactic/include  
+[2.100s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.624s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.675s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.678s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.698s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.699s] -- Looking for pthread.h
+[2.802s] -- Looking for pthread.h - found
+[2.803s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.880s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.880s] -- Looking for pthread_create in pthreads
+[2.942s] -- Looking for pthread_create in pthreads - not found
+[2.942s] -- Looking for pthread_create in pthread
+[3.016s] -- Looking for pthread_create in pthread - found
+[3.017s] -- Found Threads: TRUE  
+[3.159s] -- Found rclcpp_action: 9.2.1 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[3.197s] -- Found ament_cmake_gtest: 1.1.5 (/opt/ros/galactic/share/ament_cmake_gtest/cmake)
+[3.199s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.324s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.325s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.326s] -- Configured cppcheck include dirs: 
+[3.326s] -- Configured cppcheck exclude dirs and/or files: 
+[3.328s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.328s] -- Configured cpplint exclude dirs and/or files: 
+[3.328s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.329s] -- Added test 'lint_cmake' to check CMake code style
+[3.395s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[3.396s] -- Added test 'uncrustify' to check C / C++ code style
+[3.396s] -- Configured uncrustify additional arguments: 
+[3.396s] -- Added test 'xmllint' to check XML markup files
+[3.400s] -- Configuring done
+[3.420s] -- Generating done
+[3.478s] -- Build files have been written to: /home/student/turlebot_ws/build/ign_ros2_control_demos
+[3.489s] Invoked command in '/home/student/turlebot_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/ign_ros2_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64: /usr/bin/cmake /home/student/turlebot_ws/src/ignition-ros2-control/ign_ros2_control_demos -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/turlebot_ws/install/ign_ros2_control_demos
+[3.492s] Invoking command in '/home/student/turlebot_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/ign_ros2_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64: /usr/bin/cmake --build /home/student/turlebot_ws/build/ign_ros2_control_demos -- -j12 -l12
+[3.539s] [35m[1mScanning dependencies of target example_velocity[0m
+[3.539s] [35m[1mScanning dependencies of target example_position[0m
+[3.539s] [35m[1mScanning dependencies of target example_diff_drive[0m
+[3.539s] [35m[1mScanning dependencies of target example_effort[0m
+[3.595s] [ 12%] [32mBuilding CXX object CMakeFiles/example_effort.dir/examples/example_effort.cpp.o[0m
+[3.598s] [ 25%] [32mBuilding CXX object CMakeFiles/example_velocity.dir/examples/example_velocity.cpp.o[0m
+[3.603s] [ 37%] [32mBuilding CXX object CMakeFiles/example_diff_drive.dir/examples/example_diff_drive.cpp.o[0m
+[3.607s] [ 50%] [32mBuilding CXX object CMakeFiles/example_position.dir/examples/example_position.cpp.o[0m
+[7.885s] [ 62%] [32m[1mLinking CXX executable example_diff_drive[0m
+[7.904s] [ 75%] [32m[1mLinking CXX executable example_effort[0m
+[8.031s] [ 87%] [32m[1mLinking CXX executable example_velocity[0m
+[8.163s] [ 87%] Built target example_diff_drive
+[8.224s] [ 87%] Built target example_effort
+[8.277s] [ 87%] Built target example_velocity
+[8.407s] [100%] [32m[1mLinking CXX executable example_position[0m
+[8.611s] [100%] Built target example_position
+[8.675s] Invoked command in '/home/student/turlebot_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/ign_ros2_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64: /usr/bin/cmake --build /home/student/turlebot_ws/build/ign_ros2_control_demos -- -j12 -l12
+[8.709s] Invoking command in '/home/student/turlebot_ws/build/ign_ros2_control_demos': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/ign_ros2_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64: /usr/bin/cmake --install /home/student/turlebot_ws/build/ign_ros2_control_demos
+[8.718s] -- Install configuration: ""
+[8.718s] -- Execute custom install script
+[8.719s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_effort.launch.py
+[8.729s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_position.launch.py
+[8.738s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/cart_example_velocity.launch.py
+[8.748s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//launch/diff_drive_example.launch.py
+[8.758s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cartpole_controller_effort.yaml
+[8.767s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cartpole_controller_position.yaml
+[8.777s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/cartpole_controller_velocity.yaml
+[8.786s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//config/diff_drive_controller_velocity.yaml
+[8.796s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_effort.xacro.urdf
+[8.806s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_position.xacro.urdf
+[8.815s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_cart_velocity.xacro.urdf
+[8.825s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos//urdf/test_diff_drive.xacro.urdf
+[8.834s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_position
+[8.844s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_velocity
+[8.854s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_effort
+[8.864s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/lib/ign_ros2_control_demos/example_diff_drive
+[8.873s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/package_run_dependencies/ign_ros2_control_demos
+[8.883s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/parent_prefix_path/ign_ros2_control_demos
+[8.893s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.sh
+[8.903s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/ament_prefix_path.dsv
+[8.913s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.sh
+[8.922s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/environment/path.dsv
+[8.932s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.bash
+[8.941s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.sh
+[8.951s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.zsh
+[8.961s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/local_setup.dsv
+[8.970s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.dsv
+[8.980s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ament_index/resource_index/packages/ign_ros2_control_demos
+[8.990s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig.cmake
+[8.999s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/cmake/ign_ros2_control_demosConfig-version.cmake
+[9.009s] -- Symlinking: /home/student/turlebot_ws/install/ign_ros2_control_demos/share/ign_ros2_control_demos/package.xml
+[9.022s] Invoked command in '/home/student/turlebot_ws/build/ign_ros2_control_demos' returned '0': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/ign_ros2_control:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/ign_ros2_control:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/ign_ros2_control/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64: /usr/bin/cmake --install /home/student/turlebot_ws/build/ign_ros2_control_demos

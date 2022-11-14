@@ -1,0 +1,98 @@
+[0.031s] Invoking command in '/home/student/turlebot_ws/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/turtlebot4_msgs/lib/python3.8/site-packages:/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/turlebot_ws/src/turtlebot4/turtlebot4_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/turlebot_ws/install/turtlebot4_node
+[0.106s] -- The C compiler identification is GNU 9.4.0
+[0.179s] -- The CXX compiler identification is GNU 9.4.0
+[0.187s] -- Check for working C compiler: /usr/bin/cc
+[0.276s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.277s] -- Detecting C compiler ABI info
+[0.367s] -- Detecting C compiler ABI info - done
+[0.380s] -- Detecting C compile features
+[0.381s] -- Detecting C compile features - done
+[0.384s] -- Check for working CXX compiler: /usr/bin/c++
+[0.479s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.481s] -- Detecting CXX compiler ABI info
+[0.585s] -- Detecting CXX compiler ABI info - done
+[0.609s] -- Detecting CXX compile features
+[0.610s] -- Detecting CXX compile features - done
+[0.612s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.644s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.644s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.710s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.736s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.795s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.803s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.926s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.980s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.081s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.159s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.163s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.189s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.190s] -- Looking for pthread.h
+[1.303s] -- Looking for pthread.h - found
+[1.303s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.390s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.391s] -- Looking for pthread_create in pthreads
+[1.514s] -- Looking for pthread_create in pthreads - not found
+[1.514s] -- Looking for pthread_create in pthread
+[1.635s] -- Looking for pthread_create in pthread - found
+[1.637s] -- Found Threads: TRUE  
+[1.825s] -- Found rclcpp_action: 9.2.1 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[1.958s] -- Found std_srvs: 2.2.4 (/opt/ros/galactic/share/std_srvs/cmake)
+[1.978s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[2.128s] -- Found irobot_create_msgs: 1.2.0 (/home/student/turlebot_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake)
+[2.323s] -- Found turtlebot4_msgs: 0.1.2 (/home/student/turlebot_ws/install/turtlebot4_msgs/share/turtlebot4_msgs/cmake)
+[2.339s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[2.437s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.438s] -- Configured cppcheck include dirs: /home/student/turlebot_ws/src/turtlebot4/turtlebot4_node/include
+[2.438s] -- Configured cppcheck exclude dirs and/or files: 
+[2.439s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.439s] -- Configured cpplint exclude dirs and/or files: 
+[2.440s] -- Added test 'lint_cmake' to check CMake code style
+[2.441s] -- Added test 'uncrustify' to check C / C++ code style
+[2.441s] -- Configured uncrustify additional arguments: 
+[2.442s] -- Added test 'xmllint' to check XML markup files
+[2.448s] -- Configuring done
+[2.470s] -- Generating done
+[2.473s] -- Build files have been written to: /home/student/turlebot_ws/build/turtlebot4_node
+[2.483s] Invoked command in '/home/student/turlebot_ws/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/turtlebot4_msgs/lib/python3.8/site-packages:/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/turlebot_ws/src/turtlebot4/turtlebot4_node -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/turlebot_ws/install/turtlebot4_node
+[2.487s] Invoking command in '/home/student/turlebot_ws/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/turtlebot4_msgs/lib/python3.8/site-packages:/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/turlebot_ws/build/turtlebot4_node -- -j12 -l12
+[2.537s] [35m[1mScanning dependencies of target turtlebot4_node_lib[0m
+[2.630s] [ 12%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/buttons.cpp.o[0m
+[2.633s] [ 25%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/main.cpp.o[0m
+[2.633s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/turtlebot4.cpp.o[0m
+[2.633s] [ 50%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/display.cpp.o[0m
+[2.635s] [ 62%] [32mBuilding CXX object CMakeFiles/turtlebot4_node_lib.dir/src/leds.cpp.o[0m
+[54.720s] [ 75%] [32m[1mLinking CXX static library libturtlebot4_node_lib.a[0m
+[55.459s] [ 75%] Built target turtlebot4_node_lib
+[55.551s] [35m[1mScanning dependencies of target turtlebot4_node[0m
+[55.614s] [ 87%] [32mBuilding CXX object CMakeFiles/turtlebot4_node.dir/src/main.cpp.o[0m
+[60.331s] [100%] [32m[1mLinking CXX executable turtlebot4_node[0m
+[62.734s] [100%] Built target turtlebot4_node
+[62.747s] Invoked command in '/home/student/turlebot_ws/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/turtlebot4_msgs/lib/python3.8/site-packages:/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/turlebot_ws/build/turtlebot4_node -- -j12 -l12
+[62.788s] Invoking command in '/home/student/turlebot_ws/build/turtlebot4_node': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/turtlebot4_msgs/lib/python3.8/site-packages:/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/turlebot_ws/build/turtlebot4_node
+[62.799s] -- Install configuration: ""
+[62.799s] -- Execute custom install script
+[62.800s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/lib/turtlebot4_node/turtlebot4_node
+[62.811s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/include/turtlebot4_node/action.hpp
+[62.821s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/include/turtlebot4_node/buttons.hpp
+[62.832s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/include/turtlebot4_node/display.hpp
+[62.842s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/include/turtlebot4_node/leds.hpp
+[62.852s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/include/turtlebot4_node/service.hpp
+[62.862s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/include/turtlebot4_node/turtlebot4.hpp
+[62.873s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/include/turtlebot4_node/utils.hpp
+[62.884s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/ament_index/resource_index/package_run_dependencies/turtlebot4_node
+[62.894s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/ament_index/resource_index/parent_prefix_path/turtlebot4_node
+[62.904s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/turtlebot4_node/environment/ament_prefix_path.sh
+[62.914s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/turtlebot4_node/environment/ament_prefix_path.dsv
+[62.924s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/turtlebot4_node/environment/path.sh
+[62.934s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/turtlebot4_node/environment/path.dsv
+[62.945s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/turtlebot4_node/local_setup.bash
+[62.954s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/turtlebot4_node/local_setup.sh
+[62.965s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/turtlebot4_node/local_setup.zsh
+[62.975s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/turtlebot4_node/local_setup.dsv
+[62.986s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/turtlebot4_node/package.dsv
+[62.996s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/ament_index/resource_index/packages/turtlebot4_node
+[63.007s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/turtlebot4_node/cmake/ament_cmake_export_include_directories-extras.cmake
+[63.018s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/turtlebot4_node/cmake/turtlebot4_nodeConfig.cmake
+[63.029s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/turtlebot4_node/cmake/turtlebot4_nodeConfig-version.cmake
+[63.040s] -- Symlinking: /home/student/turlebot_ws/install/turtlebot4_node/share/turtlebot4_node/package.xml
+[63.065s] Invoked command in '/home/student/turlebot_ws/build/turtlebot4_node' returned '0': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/turtlebot4_msgs/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/turtlebot4_msgs/lib/python3.8/site-packages:/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/turlebot_ws/build/turtlebot4_node

@@ -1,0 +1,133 @@
+[0.032s] Invoking command in '/home/student/turlebot_ws/build/irobot_create_ignition_toolbox': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/turlebot_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/turlebot_ws/install/irobot_create_ignition_toolbox
+[0.100s] -- The C compiler identification is GNU 9.4.0
+[0.165s] -- The CXX compiler identification is GNU 9.4.0
+[0.172s] -- Check for working C compiler: /usr/bin/cc
+[0.258s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.260s] -- Detecting C compiler ABI info
+[0.341s] -- Detecting C compiler ABI info - done
+[0.355s] -- Detecting C compile features
+[0.355s] -- Detecting C compile features - done
+[0.358s] -- Check for working CXX compiler: /usr/bin/c++
+[0.455s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.457s] -- Detecting CXX compiler ABI info
+[0.561s] -- Detecting CXX compiler ABI info - done
+[0.575s] -- Detecting CXX compile features
+[0.576s] -- Detecting CXX compile features - done
+[0.579s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.616s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.616s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.685s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.723s] -- Found control_msgs: 3.0.0 (/opt/ros/galactic/share/control_msgs/cmake)
+[0.776s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.784s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.909s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.944s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.037s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.593s] -- Found sensor_msgs: 2.2.4 (/opt/ros/galactic/share/sensor_msgs/cmake)
+[1.687s] -- Found nav_msgs: 2.2.4 (/opt/ros/galactic/share/nav_msgs/cmake)
+[1.776s] -- Found irobot_create_msgs: 1.2.0 (/home/student/turlebot_ws/install/irobot_create_msgs/share/irobot_create_msgs/cmake)
+[1.962s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[2.027s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[2.030s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[2.054s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.055s] -- Looking for pthread.h
+[2.140s] -- Looking for pthread.h - found
+[2.140s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.229s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[2.229s] -- Looking for pthread_create in pthreads
+[2.304s] -- Looking for pthread_create in pthreads - not found
+[2.304s] -- Looking for pthread_create in pthread
+[2.394s] -- Looking for pthread_create in pthread - found
+[2.395s] -- Found Threads: TRUE  
+[2.585s] -- Found rclcpp_action: 9.2.1 (/opt/ros/galactic/share/rclcpp_action/cmake)
+[2.626s] -- Found tf2: 0.17.4 (/opt/ros/galactic/share/tf2/cmake)
+[2.649s] -- Found tf2_geometry_msgs: 0.17.4 (/opt/ros/galactic/share/tf2_geometry_msgs/cmake)
+[2.661s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/galactic/share/eigen3_cmake_module/cmake)
+[2.665s] -- Found Eigen3: TRUE (found version "3.3.7") 
+[3.107s] -- Found irobot_create_toolbox: 1.0.1 (/home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake)
+[3.294s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[3.456s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.457s] -- Configured cppcheck include dirs: /home/student/turlebot_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox/include
+[3.457s] -- Configured cppcheck exclude dirs and/or files: 
+[3.461s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.461s] -- Configured cpplint exclude dirs and/or files: 
+[3.463s] -- Added test 'lint_cmake' to check CMake code style
+[3.468s] -- Added test 'uncrustify' to check C / C++ code style
+[3.468s] -- Configured uncrustify additional arguments: 
+[3.470s] -- Added test 'xmllint' to check XML markup files
+[3.483s] -- Configuring done
+[3.650s] -- Generating done
+[3.655s] -- Build files have been written to: /home/student/turlebot_ws/build/irobot_create_ignition_toolbox
+[3.679s] Invoked command in '/home/student/turlebot_ws/build/irobot_create_ignition_toolbox' returned '0': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake /home/student/turlebot_ws/src/create3_sim/irobot_create_ignition/irobot_create_ignition_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/turlebot_ws/install/irobot_create_ignition_toolbox
+[3.681s] Invoking command in '/home/student/turlebot_ws/build/irobot_create_ignition_toolbox': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/turlebot_ws/build/irobot_create_ignition_toolbox -- -j12 -l12
+[3.757s] [35m[1mScanning dependencies of target irobot_create_ignition_sensors_lib[0m
+[3.757s] [35m[1mScanning dependencies of target irobot_create_ignition_interface_buttons_lib[0m
+[3.759s] [35m[1mScanning dependencies of target irobot_create_ignition_pose_republisher_lib[0m
+[3.864s] [  5%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_interface_buttons_lib.dir/src/interface_buttons/interface_buttons_node.cpp.o[0m
+[3.907s] [ 11%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_pose_republisher_lib.dir/src/pose_republisher/pose_republisher_node.cpp.o[0m
+[3.962s] [ 16%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/sensors_node.cpp.o[0m
+[3.969s] [ 22%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/ir_opcode.cpp.o[0m
+[3.979s] [ 27%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/bumper.cpp.o[0m
+[3.984s] [ 33%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/cliff.cpp.o[0m
+[3.985s] [ 38%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/ir_intensity.cpp.o[0m
+[4.024s] [ 44%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/mouse.cpp.o[0m
+[4.059s] [ 50%] [32mBuilding CXX object CMakeFiles/irobot_create_ignition_sensors_lib.dir/src/sensors/wheel_drop.cpp.o[0m
+[36.896s] [ 55%] [32m[1mLinking CXX shared library libirobot_create_ignition_interface_buttons_lib.so[0m
+[38.889s] [ 55%] Built target irobot_create_ignition_interface_buttons_lib
+[43.652s] [ 61%] [32m[1mLinking CXX shared library libirobot_create_ignition_pose_republisher_lib.so[0m
+[45.179s] [ 61%] Built target irobot_create_ignition_pose_republisher_lib
+[45.957s] [ 66%] [32m[1mLinking CXX shared library libirobot_create_ignition_sensors_lib.so[0m
+[48.675s] [ 66%] Built target irobot_create_ignition_sensors_lib
+[48.691s] [35m[1mScanning dependencies of target pose_republisher_node[0m
+[48.768s] [ 72%] [32mBuilding CXX object CMakeFiles/pose_republisher_node.dir/src/pose_republisher/pose_republisher_main.cpp.o[0m
+[52.724s] [ 77%] [32m[1mLinking CXX executable pose_republisher_node[0m
+[53.118s] [ 77%] Built target pose_republisher_node
+[53.195s] [35m[1mScanning dependencies of target sensors_node[0m
+[53.261s] [ 83%] [32mBuilding CXX object CMakeFiles/sensors_node.dir/src/sensors/sensors_main.cpp.o[0m
+[58.348s] [ 88%] [32m[1mLinking CXX executable sensors_node[0m
+[59.167s] [ 88%] Built target sensors_node
+[59.245s] [35m[1mScanning dependencies of target interface_buttons_node[0m
+[59.300s] [ 94%] [32mBuilding CXX object CMakeFiles/interface_buttons_node.dir/src/interface_buttons/interface_buttons_main.cpp.o[0m
+[62.148s] [100%] [32m[1mLinking CXX executable interface_buttons_node[0m
+[62.451s] [100%] Built target interface_buttons_node
+[62.517s] Invoked command in '/home/student/turlebot_ws/build/irobot_create_ignition_toolbox' returned '0': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/student/turlebot_ws/build/irobot_create_ignition_toolbox -- -j12 -l12
+[62.587s] Invoking command in '/home/student/turlebot_ws/build/irobot_create_ignition_toolbox': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/turlebot_ws/build/irobot_create_ignition_toolbox
+[62.598s] -- Install configuration: ""
+[62.599s] -- Execute custom install script
+[62.600s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/lib/libirobot_create_ignition_pose_republisher_lib.so
+[62.611s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/lib/libirobot_create_ignition_sensors_lib.so
+[62.623s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/lib/libirobot_create_ignition_interface_buttons_lib.so
+[62.635s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/lib/irobot_create_ignition_toolbox/pose_republisher_node
+[62.646s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/lib/irobot_create_ignition_toolbox/sensors_node
+[62.657s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/lib/irobot_create_ignition_toolbox/interface_buttons_node
+[62.669s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/interface_buttons/interface_buttons_node.hpp
+[62.680s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/pose_republisher/pose_republisher.hpp
+[62.692s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors/bumper.hpp
+[62.703s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors/cliff.hpp
+[62.714s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors/ir_intensity.hpp
+[62.724s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors/ir_opcode.hpp
+[62.734s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors/mouse.hpp
+[62.745s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors/sensors_node.hpp
+[62.758s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/sensors/wheel_drop.hpp
+[62.766s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/include/irobot_create_ignition_toolbox/utils.hpp
+[62.777s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/environment/library_path.sh
+[62.788s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/environment/library_path.dsv
+[62.799s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/ament_index/resource_index/package_run_dependencies/irobot_create_ignition_toolbox
+[62.809s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/ament_index/resource_index/parent_prefix_path/irobot_create_ignition_toolbox
+[62.820s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/environment/ament_prefix_path.sh
+[62.830s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/environment/ament_prefix_path.dsv
+[62.840s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/environment/path.sh
+[62.850s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/environment/path.dsv
+[62.860s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/local_setup.bash
+[62.870s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/local_setup.sh
+[62.880s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/local_setup.zsh
+[62.890s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/local_setup.dsv
+[62.900s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/package.dsv
+[62.910s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/ament_index/resource_index/packages/irobot_create_ignition_toolbox
+[62.920s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[62.930s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[62.941s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[62.951s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/cmake/irobot_create_ignition_toolboxConfig.cmake
+[62.960s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/cmake/irobot_create_ignition_toolboxConfig-version.cmake
+[62.971s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_ignition_toolbox/share/irobot_create_ignition_toolbox/package.xml
+[62.986s] Invoked command in '/home/student/turlebot_ws/build/irobot_create_ignition_toolbox' returned '0': AMENT_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox:/home/student/turlebot_ws/install/irobot_create_msgs:/opt/ros/galactic LD_LIBRARY_PATH=/home/student/turlebot_ws/install/irobot_create_toolbox/lib:/home/student/turlebot_ws/install/irobot_create_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/galactic/opt/yaml_cpp_vendor/lib:/opt/ros/galactic/opt/rviz_ogre_vendor/lib:/opt/ros/galactic/lib/x86_64-linux-gnu:/opt/ros/galactic/lib:/usr/local/cuda-11.1/lib64 PYTHONPATH=/home/student/turlebot_ws/install/irobot_create_msgs/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/student/turlebot_ws/build/irobot_create_ignition_toolbox

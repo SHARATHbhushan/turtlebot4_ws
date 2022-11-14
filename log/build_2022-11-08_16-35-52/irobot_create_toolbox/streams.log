@@ -1,0 +1,87 @@
+[0.038s] Invoking command in '/home/student/turlebot_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/student/turlebot_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/turlebot_ws/install/irobot_create_toolbox
+[0.163s] -- The C compiler identification is GNU 9.4.0
+[0.238s] -- The CXX compiler identification is GNU 9.4.0
+[0.244s] -- Check for working C compiler: /usr/bin/cc
+[0.327s] -- Check for working C compiler: /usr/bin/cc -- works
+[0.328s] -- Detecting C compiler ABI info
+[0.410s] -- Detecting C compiler ABI info - done
+[0.428s] -- Detecting C compile features
+[0.428s] -- Detecting C compile features - done
+[0.432s] -- Check for working CXX compiler: /usr/bin/c++
+[0.524s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[0.526s] -- Detecting CXX compiler ABI info
+[0.623s] -- Detecting CXX compiler ABI info - done
+[0.638s] -- Detecting CXX compile features
+[0.639s] -- Detecting CXX compile features - done
+[0.641s] -- Found ament_cmake: 1.1.5 (/opt/ros/galactic/share/ament_cmake/cmake)
+[0.667s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.667s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.727s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.757s] -- Looking for ignition-math6 -- found version 6.13.0
+[0.763s] -- Searching for dependencies of ignition-math6
+[0.765s] -- Found rclcpp: 9.2.1 (/opt/ros/galactic/share/rclcpp/cmake)
+[0.810s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.816s] -- Found rosidl_adapter: 2.2.2 (/opt/ros/galactic/share/rosidl_adapter/cmake)
+[0.918s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[0.955s] -- Found FastRTPS: /opt/ros/galactic/include  
+[1.046s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.111s] -- Found rmw_implementation_cmake: 3.3.1 (/opt/ros/galactic/share/rmw_implementation_cmake/cmake)
+[1.113s] -- Found rmw_cyclonedds_cpp: 0.22.5 (/opt/ros/galactic/share/rmw_cyclonedds_cpp/cmake)
+[1.134s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.135s] -- Looking for pthread.h
+[1.218s] -- Looking for pthread.h - found
+[1.219s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.305s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[1.305s] -- Looking for pthread_create in pthreads
+[1.374s] -- Looking for pthread_create in pthreads - not found
+[1.375s] -- Looking for pthread_create in pthread
+[1.455s] -- Looking for pthread_create in pthread - found
+[1.456s] -- Found Threads: TRUE  
+[1.644s] -- Found ament_lint_auto: 0.10.7 (/opt/ros/galactic/share/ament_lint_auto/cmake)
+[1.734s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.734s] -- Configured cppcheck include dirs: /home/student/turlebot_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox/include
+[1.734s] -- Configured cppcheck exclude dirs and/or files: 
+[1.735s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.735s] -- Configured cpplint exclude dirs and/or files: 
+[1.736s] -- Added test 'lint_cmake' to check CMake code style
+[1.737s] -- Added test 'uncrustify' to check C / C++ code style
+[1.737s] -- Configured uncrustify additional arguments: 
+[1.737s] -- Added test 'xmllint' to check XML markup files
+[1.742s] -- Configuring done
+[1.750s] -- Generating done
+[1.752s] -- Build files have been written to: /home/student/turlebot_ws/build/irobot_create_toolbox
+[1.762s] Invoked command in '/home/student/turlebot_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake /home/student/turlebot_ws/src/create3_sim/irobot_create_common/irobot_create_toolbox -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/student/turlebot_ws/install/irobot_create_toolbox
+[1.767s] Invoking command in '/home/student/turlebot_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/student/turlebot_ws/build/irobot_create_toolbox -- -j12 -l12
+[1.826s] [35m[1mScanning dependencies of target irobot_create_toolbox[0m
+[1.847s] [ 50%] [32mBuilding CXX object CMakeFiles/irobot_create_toolbox.dir/src/polar_coordinates.cpp.o[0m
+[5.424s] [100%] [32m[1mLinking CXX shared library libirobot_create_toolbox.so[0m
+[5.635s] [100%] Built target irobot_create_toolbox
+[5.650s] Invoked command in '/home/student/turlebot_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --build /home/student/turlebot_ws/build/irobot_create_toolbox -- -j12 -l12
+[5.685s] Invoking command in '/home/student/turlebot_ws/build/irobot_create_toolbox': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/student/turlebot_ws/build/irobot_create_toolbox
+[5.697s] -- Install configuration: ""
+[5.698s] -- Execute custom install script
+[5.699s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/lib/libirobot_create_toolbox.so
+[5.715s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/math.hpp
+[5.726s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/polar_coordinates.hpp
+[5.738s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/include/irobot_create_toolbox/sensors/bumpers.hpp
+[5.749s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/library_path.sh
+[5.761s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/library_path.dsv
+[5.772s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/ament_index/resource_index/package_run_dependencies/irobot_create_toolbox
+[5.784s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/ament_index/resource_index/parent_prefix_path/irobot_create_toolbox
+[5.796s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/ament_prefix_path.sh
+[5.807s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/ament_prefix_path.dsv
+[5.819s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/path.sh
+[5.832s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/environment/path.dsv
+[5.843s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.bash
+[5.856s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.sh
+[5.867s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.zsh
+[5.879s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/local_setup.dsv
+[5.891s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.dsv
+[5.903s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/ament_index/resource_index/packages/irobot_create_toolbox
+[5.914s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_include_directories-extras.cmake
+[5.926s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_libraries-extras.cmake
+[5.940s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/ament_cmake_export_dependencies-extras.cmake
+[5.951s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/irobot_create_toolboxConfig.cmake
+[5.962s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/cmake/irobot_create_toolboxConfig-version.cmake
+[5.974s] -- Symlinking: /home/student/turlebot_ws/install/irobot_create_toolbox/share/irobot_create_toolbox/package.xml
+[5.991s] Invoked command in '/home/student/turlebot_ws/build/irobot_create_toolbox' returned '0': CMAKE_PREFIX_PATH=/opt/ros/galactic /usr/bin/cmake --install /home/student/turlebot_ws/build/irobot_create_toolbox
